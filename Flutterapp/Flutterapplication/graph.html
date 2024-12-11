@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDV Data Graph</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>SDV Metrics: Speed Over Time</h1>
+        <div class="graph-container">
+            <img src="data:image/png;base64,{{ graph }}" alt="SDV Data Graph">
+        </div>
+    </div>
+</body>
+</html>
